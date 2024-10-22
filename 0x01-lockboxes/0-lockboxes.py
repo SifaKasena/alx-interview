@@ -6,7 +6,7 @@ def canUnlockAll(boxes):
     """
     Determines if all the boxes can be unlocked.
 
-    A list of lists is given where each inner list represents a box 
+    A list of lists is given where each inner list represents a box
     and contains keys to other boxes.
     The function starts with the first box (index 0) and tries to unlock all
     other boxes using the keys found.
