@@ -24,7 +24,8 @@ status_codes = {
 
 line_count = 0
 pattern = re.compile(
-    r'^\S+ - \[\S+ \S+\] "GET /projects/260 HTTP/1.1" (\d{3}) (\d+)$'
+    r'^\d+\.\d+\.\d+\.\d+ - \[\S+ \S+\] "GET /projects/260 HTTP/1.1" '
+    r'(\d{3}) (\d+)$'
 )
 
 try:
